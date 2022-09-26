@@ -21,8 +21,7 @@ class CreateField
     def initialize (x = 0, y = 0)
         @x=x
         @y=y
-        puts {@x}
-        puts {@y}
+       
     end  
 
     def fields
@@ -54,7 +53,10 @@ class CreateField
       end
       puts "--------------------\n"
       el=15
-      #return field.join(" ")  
+      #return field.join(" ") 
+      puts "x = #{@x}"
+      puts "y = #{@y}"
+      puts field[@x][@y]
     end   
 end
 
