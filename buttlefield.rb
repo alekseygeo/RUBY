@@ -18,14 +18,14 @@
 #puts b.say_bue
 
 class CreateField
-    def initialize (x = 0,y = 0)
+    def initialize (x = 0, y = 0)
         @x=x
         @y=y
         puts {@x}
         puts {@y}
-    end    
-    def fields
+    end  
 
+    def fields
     field = [[],[],[],[],[],[],[],[],[],[]]
    
       10.times do |el|
